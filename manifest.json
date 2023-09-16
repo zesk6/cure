@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "the Internet Cure",
+    "description": "No more watching YouTube or Pornhub for 25 hours a day. Or else... ",
+    "version": "1.0",
+    "permissions": ["tabs", "storage"],
+    "icons": {
+
+    },
+    "action": {
+        "default_popup": "scripts/popup/index.html"
+
+    },
+    "content_scripts":[
+
+    ],
+    "background":   {
+        "service_worker": "background.js"
+    }
+    
+
+}
